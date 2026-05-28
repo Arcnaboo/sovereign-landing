@@ -1,26 +1,179 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --sovereign-obsidian: #0b0f19;
+  --sovereign-navy: #111827;
+  --sovereign-cyan: #06b6d4;
+  --sovereign-gold: #d4af37;
+  --sovereign-platinum: #e2e8f0;
+  --sovereign-gold-dim: #8a7020;
+  --background: var(--sovereign-obsidian);
+  --foreground: var(--sovereign-platinum);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-obsidian: var(--sovereign-obsidian);
+  --color-nebula: var(--sovereign-navy);
+  --color-quantum: var(--sovereign-cyan);
+  --color-gold: var(--sovereign-gold);
+  --color-platinum: var(--sovereign-platinum);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-syne);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--sovereign-obsidian);
+  color: var(--sovereign-platinum);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--sovereign-gold) 35%, transparent);
+  color: #fff;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes route-flow {
+  to {
+    stroke-dashoffset: -120;
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scan {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes voice-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 0 color-mix(in srgb, var(--sovereign-cyan) 45%, transparent),
+      0 0 40px color-mix(in srgb, var(--sovereign-cyan) 15%, transparent);
+  }
+  50% {
+    box-shadow:
+      0 0 0 12px transparent,
+      0 0 60px color-mix(in srgb, var(--sovereign-cyan) 25%, transparent);
+  }
+}
+
+.animate-route-flow {
+  animation: route-flow 4s linear infinite;
+}
+
+.animate-orbit-slow {
+  animation: orbit 120s linear infinite;
+}
+
+.animate-orbit-reverse {
+  animation: orbit 90s linear infinite reverse;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-voice-pulse {
+  animation: voice-pulse 2.8s ease-in-out infinite;
+}
+
+.grain::after {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.grid-sovereign {
+  background-image:
+    linear-gradient(
+      color-mix(in srgb, var(--sovereign-gold) 6%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--sovereign-gold) 6%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 64px 64px;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(
+    135deg,
+    #f5e6a8 0%,
+    var(--sovereign-gold) 40%,
+    #9a7b1a 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.cyan-glow {
+  text-shadow: 0 0 40px color-mix(in srgb, var(--sovereign-cyan) 50%, transparent);
+}
+
+.panel-border {
+  border: 1px solid color-mix(in srgb, var(--sovereign-gold) 18%, transparent);
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--sovereign-navy) 90%, transparent),
+    color-mix(in srgb, var(--sovereign-obsidian) 95%, transparent)
+  );
 }
