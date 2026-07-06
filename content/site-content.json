@@ -1,0 +1,282 @@
+{
+  "en": {
+    "metadata": {
+      "title": "SOVEREIGN — The Global Commerce Operating System",
+      "description": "Zero Interface. Sovereign Intelligence. Autonomous Commerce. The next-generation operating system for global trade.",
+      "ogTitle": "SOVEREIGN — Global Commerce OS",
+      "ogDescription": "One Sovereign Ecosystem. Infinite Opportunities."
+    },
+    "nav": {
+      "intelligence": "Intelligence",
+      "ecosystem": "Ecosystem",
+      "command": "Command",
+      "architecture": "Architecture",
+      "requestAccess": "Request Access"
+    },
+    "hero": {
+      "eyebrow": "Zero Interface · Sovereign Intelligence",
+      "titleGold": "The Next 50 Years",
+      "titlePlatinum": "of Global Commerce",
+      "subtitleLine1": "One Sovereign Ecosystem.",
+      "subtitleLine2": "Infinite Opportunities.",
+      "speakCta": "Speak To Sovereign AI",
+      "requestCta": "Request Access"
+    },
+    "intelligence": {
+      "eyebrow": "Global Commerce Intelligence",
+      "title": "The AI layer orchestrating",
+      "titleHighlight": "world trade",
+      "description": "Autonomous matching, commercial intelligence, investment discovery, and global business opportunities — unified under sovereign intelligence.",
+      "metrics": [
+        { "value": 186, "suffix": "+", "label": "Countries Connected" },
+        { "value": 2400000, "suffix": "", "label": "Businesses Connected" },
+        { "value": 890000000, "suffix": "", "label": "Transactions Processed" },
+        { "value": 12400, "suffix": "", "label": "Active AI Operations" }
+      ],
+      "bullets": [
+        "Autonomous matching",
+        "Commercial intelligence",
+        "Investment discovery",
+        "Global opportunities"
+      ]
+    },
+    "ecosystem": {
+      "eyebrow": "Core Ecosystem",
+      "title": "Commerce modules. One network.",
+      "description": "Not a marketplace. Not a directory. The operating system that unifies every critical layer of international trade.",
+      "modules": [
+        { "title": "B2B Matchmaking", "desc": "AI-powered supplier and buyer discovery across borders.", "icon": "◈" },
+        { "title": "Global Networking", "desc": "Cross-border executive relationships and strategic alliances.", "icon": "◎" },
+        { "title": "Startup & Investor Hub", "desc": "Founders, VCs, and family offices in one intelligence layer.", "icon": "△" },
+        { "title": "Commerce Marketplace", "desc": "International product and service exchange at scale.", "icon": "⬡" },
+        { "title": "Supply Chain Intelligence", "desc": "Logistics orchestration and route optimization.", "icon": "⟁" },
+        { "title": "Enterprise Integrations", "desc": "APIs and autonomous workflows for existing systems.", "icon": "⊞" },
+        { "title": "Sovereign Finance", "desc": "Investment and capital ecosystems with sovereign trust.", "icon": "◇" },
+        { "title": "AI Governance", "desc": "Commercial decision support with enterprise controls.", "icon": "⬢" }
+      ]
+    },
+    "command": {
+      "eyebrow": "AI Command Center",
+      "title": "Intelligence at the",
+      "titleHighlight": "center",
+      "description": "Live global trade activity, investment opportunities, supply chain monitoring, and market signals — orchestrated by sovereign AI as the central nervous system of commerce.",
+      "liveLabels": ["Trade activity", "Investment ops", "Supply chain", "Market signals"],
+      "liveTag": "Live",
+      "terminalLabel": "sovereign://command/live",
+      "events": [
+        { "time": "14:02:41", "type": "MATCH", "msg": "Buyer ↔ Supplier linked — Istanbul → Hamburg" },
+        { "time": "14:02:38", "type": "ROUTE", "msg": "Supply chain optimized — Rotterdam → Singapore" },
+        { "time": "14:02:35", "type": "SIGNAL", "msg": "Market opportunity flagged — ASEAN logistics" },
+        { "time": "14:02:31", "type": "CAPITAL", "msg": "Investor interest — Series B climate tech" },
+        { "time": "14:02:28", "type": "COMPLY", "msg": "Regional compliance verified — EU export" },
+        { "time": "14:02:24", "type": "MATCH", "msg": "Executive network — Dubai ↔ São Paulo" },
+        { "time": "14:02:20", "type": "ROUTE", "msg": "Shipment orchestrated — Shanghai → Los Angeles" },
+        { "time": "14:02:17", "type": "SIGNAL", "msg": "Acquisition scan — Southeast Asia manufacturing" }
+      ]
+    },
+    "globalReach": {
+      "eyebrow": "Global Reach",
+      "title": "186+ countries. One sovereign network.",
+      "description": "International business corridors, supply chain routes, and trade partnerships visualized across the planet.",
+      "stats": [
+        { "value": "186+", "label": "Countries" },
+        { "value": "12K+", "label": "Corridors" },
+        { "value": "∞", "label": "Opportunities" }
+      ],
+      "mapCaption": "Live corridor mesh · Sovereign Network"
+    },
+    "architecture": {
+      "eyebrow": "Sovereign Intelligence Architecture",
+      "title": "How AI coordinates everything",
+      "layers": [
+        { "label": "Users", "sub": "Enterprise · Founders · Institutions" },
+        { "label": "Sovereign AI Layer", "sub": "Natural language · Voice · Zero-UI", "highlight": true },
+        { "label": "Commerce Modules", "sub": "8 integrated capabilities" },
+        { "label": "Global Network Infrastructure", "sub": "186+ countries · Sovereign mesh" }
+      ]
+    },
+    "security": {
+      "eyebrow": "Enterprise Security",
+      "title": "Infrastructure you can trust",
+      "items": [
+        "Data Sovereignty",
+        "Privacy Controls",
+        "Enterprise Encryption",
+        "Regional Compliance",
+        "Sovereign AI Governance"
+      ]
+    },
+    "evolution": {
+      "eyebrow": "Future of Commerce",
+      "title": "The evolution to autonomous commerce",
+      "steps": [
+        { "era": "Traditional Commerce", "year": "Past" },
+        { "era": "Digital Commerce", "year": "2000s" },
+        { "era": "AI Commerce", "year": "2020s" },
+        { "era": "Autonomous Commerce", "year": "Next", "active": true }
+      ],
+      "footer": "SOVEREIGN is the infrastructure enabling the transition to autonomous, AI-native global commerce."
+    },
+    "access": {
+      "title": "Enter the sovereign network",
+      "description": "Request enterprise access to the global commerce operating system.",
+      "emailPlaceholder": "enterprise@company.com",
+      "submit": "Request Access"
+    },
+    "footer": {
+      "tagline": "The Global Commerce Operating System",
+      "manifesto": "Manifesto",
+      "architecture": "Architecture",
+      "enterpriseContact": "Enterprise Contact",
+      "globalPartnerships": "Global Partnerships",
+      "requestAccess": "Request Access",
+      "copyright": "All rights reserved."
+    },
+    "voicePrompts": [
+      "Find textile manufacturers in Turkey.",
+      "Locate investors interested in logistics technology.",
+      "Arrange shipment from Germany to Singapore.",
+      "Find acquisition opportunities in Southeast Asia."
+    ]
+  },
+  "tr": {
+    "metadata": {
+      "title": "SOVEREIGN — Küresel Ticaret İşletim Sistemi",
+      "description": "Sıfır Arayüz. Egemen Zeka. Otonom Ticaret. Küresel ticaret için yeni nesil işletim sistemi.",
+      "ogTitle": "SOVEREIGN — Küresel Ticaret OS",
+      "ogDescription": "Tek Egemen Ekosistem. Sonsuz Fırsatlar."
+    },
+    "nav": {
+      "intelligence": "Zeka",
+      "ecosystem": "Ekosistem",
+      "command": "Komuta",
+      "architecture": "Mimari",
+      "requestAccess": "Erişim Talep Et"
+    },
+    "hero": {
+      "eyebrow": "Sıfır Arayüz · Egemen Zeka",
+      "titleGold": "Önümüzdeki 50 Yıl",
+      "titlePlatinum": "Küresel Ticaretin",
+      "subtitleLine1": "Tek Egemen Ekosistem.",
+      "subtitleLine2": "Sonsuz Fırsatlar.",
+      "speakCta": "Sovereign AI ile Konuş",
+      "requestCta": "Erişim Talep Et"
+    },
+    "intelligence": {
+      "eyebrow": "Küresel Ticaret Zekası",
+      "title": "Dünya ticaretini yöneten",
+      "titleHighlight": "yapay zeka katmanı",
+      "description": "Otonom eşleştirme, ticari istihbarat, yatırım keşfi ve küresel iş fırsatları — egemen zeka altında birleşmiş.",
+      "metrics": [
+        { "value": 186, "suffix": "+", "label": "Bağlı Ülke" },
+        { "value": 2400000, "suffix": "", "label": "Bağlı İşletme" },
+        { "value": 890000000, "suffix": "", "label": "İşlenen İşlem" },
+        { "value": 12400, "suffix": "", "label": "Aktif AI Operasyonu" }
+      ],
+      "bullets": [
+        "Otonom eşleştirme",
+        "Ticari istihbarat",
+        "Yatırım keşfi",
+        "Küresel fırsatlar"
+      ]
+    },
+    "ecosystem": {
+      "eyebrow": "Temel Ekosistem",
+      "title": "Ticaret modülleri. Tek ağ.",
+      "description": "Bir pazar yeri değil. Bir dizin değil. Uluslararası ticaretin her kritik katmanını birleştiren işletim sistemi.",
+      "modules": [
+        { "title": "B2B Eşleştirme", "desc": "Sınırlar ötesinde AI destekli tedarikçi ve alıcı keşfi.", "icon": "◈" },
+        { "title": "Küresel Ağ", "desc": "Sınır ötesi yönetici ilişkileri ve stratejik ittifaklar.", "icon": "◎" },
+        { "title": "Girişim & Yatırımcı Merkezi", "desc": "Kurucular, VC'ler ve aile ofisleri tek bir zeka katmanında.", "icon": "△" },
+        { "title": "Ticaret Pazaryeri", "desc": "Ölçekte uluslararası ürün ve hizmet alışverişi.", "icon": "⬡" },
+        { "title": "Tedarik Zinciri Zekası", "desc": "Lojistik orkestrasyonu ve rota optimizasyonu.", "icon": "⟁" },
+        { "title": "Kurumsal Entegrasyonlar", "desc": "Mevcut sistemler için API'ler ve otonom iş akışları.", "icon": "⊞" },
+        { "title": "Egemen Finans", "desc": "Egemen güvenle yatırım ve sermaye ekosistemleri.", "icon": "◇" },
+        { "title": "AI Yönetişimi", "desc": "Kurumsal kontrollerle ticari karar desteği.", "icon": "⬢" }
+      ]
+    },
+    "command": {
+      "eyebrow": "AI Komuta Merkezi",
+      "title": "Zekanın",
+      "titleHighlight": "merkezde",
+      "description": "Canlı küresel ticaret aktivitesi, yatırım fırsatları, tedarik zinciri izleme ve pazar sinyalleri — ticaretin merkezi sinir sistemi olarak egemen AI tarafından yönetilir.",
+      "liveLabels": ["Ticaret aktivitesi", "Yatırım operasyonları", "Tedarik zinciri", "Pazar sinyalleri"],
+      "liveTag": "Canlı",
+      "terminalLabel": "sovereign://command/live",
+      "events": [
+        { "time": "14:02:41", "type": "MATCH", "msg": "Alıcı ↔ Tedarikçi eşleşti — İstanbul → Hamburg" },
+        { "time": "14:02:38", "type": "ROUTE", "msg": "Tedarik zinciri optimize edildi — Rotterdam → Singapur" },
+        { "time": "14:02:35", "type": "SIGNAL", "msg": "Pazar fırsatı işaretlendi — ASEAN lojistik" },
+        { "time": "14:02:31", "type": "CAPITAL", "msg": "Yatırımcı ilgisi — Seri B iklim teknolojisi" },
+        { "time": "14:02:28", "type": "COMPLY", "msg": "Bölgesel uyumluluk doğrulandı — AB ihracat" },
+        { "time": "14:02:24", "type": "MATCH", "msg": "Yönetici ağı — Dubai ↔ São Paulo" },
+        { "time": "14:02:20", "type": "ROUTE", "msg": "Sevkiyat düzenlendi — Şangay → Los Angeles" },
+        { "time": "14:02:17", "type": "SIGNAL", "msg": "Satın alma taraması — Güneydoğu Asya imalat" }
+      ]
+    },
+    "globalReach": {
+      "eyebrow": "Küresel Erişim",
+      "title": "186+ ülke. Tek egemen ağ.",
+      "description": "Uluslararası iş koridorları, tedarik zinciri rotaları ve ticaret ortaklıkları gezegen genelinde görselleştirilir.",
+      "stats": [
+        { "value": "186+", "label": "Ülke" },
+        { "value": "12K+", "label": "Koridor" },
+        { "value": "∞", "label": "Fırsat" }
+      ],
+      "mapCaption": "Canlı koridor ağı · Egemen Ağ"
+    },
+    "architecture": {
+      "eyebrow": "Egemen Zeka Mimarisi",
+      "title": "AI her şeyi nasıl koordine eder",
+      "layers": [
+        { "label": "Kullanıcılar", "sub": "Kurumsal · Kurucular · Kurumlar" },
+        { "label": "Egemen AI Katmanı", "sub": "Doğal dil · Ses · Sıfır-UI", "highlight": true },
+        { "label": "Ticaret Modülleri", "sub": "8 entegre yetenek" },
+        { "label": "Küresel Ağ Altyapısı", "sub": "186+ ülke · Egemen ağ" }
+      ]
+    },
+    "security": {
+      "eyebrow": "Kurumsal Güvenlik",
+      "title": "Güvenebileceğiniz altyapı",
+      "items": [
+        "Veri Egemenliği",
+        "Gizlilik Kontrolleri",
+        "Kurumsal Şifreleme",
+        "Bölgesel Uyumluluk",
+        "Egemen AI Yönetişimi"
+      ]
+    },
+    "evolution": {
+      "eyebrow": "Ticaretin Geleceği",
+      "title": "Otonom ticarete evrim",
+      "steps": [
+        { "era": "Geleneksel Ticaret", "year": "Geçmiş" },
+        { "era": "Dijital Ticaret", "year": "2000'ler" },
+        { "era": "AI Ticareti", "year": "2020'ler" },
+        { "era": "Otonom Ticaret", "year": "Gelecek", "active": true }
+      ],
+      "footer": "SOVEREIGN, otonom, AI-yerel küresel ticarete geçişi mümkün kılan altyapıdır."
+    },
+    "access": {
+      "title": "Egemen ağa girin",
+      "description": "Küresel ticaret işletim sistemine kurumsal erişim talep edin.",
+      "emailPlaceholder": "kurumsal@sirket.com",
+      "submit": "Erişim Talep Et"
+    },
+    "footer": {
+      "tagline": "Küresel Ticaret İşletim Sistemi",
+      "manifesto": "Manifesto",
+      "architecture": "Mimari",
+      "enterpriseContact": "Kurumsal İletişim",
+      "globalPartnerships": "Küresel Ortaklıklar",
+      "requestAccess": "Erişim Talep Et",
+      "copyright": "Tüm hakları saklıdır."
+    },
+    "voicePrompts": [
+      "Türkiye'de tekstil üreticileri bul.",
+      "Lojistik teknolojisine ilgi duyan yatırımcılar bul.",
+      "Almanya'dan Singapur'a sevkiyat ayarla.",
+      "Güneydoğu Asya'da satın alma fırsatları bul."
+    ]
+  }
+}

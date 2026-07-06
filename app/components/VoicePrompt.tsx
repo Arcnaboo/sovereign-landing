@@ -2,20 +2,13 @@
 
 import { useEffect, useState } from "react";
 
-const PROMPTS = [
-  "Find textile manufacturers in Turkey.",
-  "Locate investors interested in logistics technology.",
-  "Arrange shipment from Germany to Singapore.",
-  "Find acquisition opportunities in Southeast Asia.",
-];
-
-export function VoicePrompt() {
+export function VoicePrompt({ prompts }: { prompts: string[] }) {
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
   const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
-    const full = PROMPTS[index];
+    const full = prompts[index];
     const timeout = setTimeout(
       () => {
         if (!deleting) {
@@ -28,13 +21,13 @@ export function VoicePrompt() {
           setText(text.slice(0, -1));
         } else {
           setDeleting(false);
-          setIndex((i) => (i + 1) % PROMPTS.length);
+          setIndex((i) => (i + 1) % prompts.length);
         }
       },
       deleting ? 28 : 42,
     );
     return () => clearTimeout(timeout);
-  }, [text, deleting, index]);
+  }, [text, deleting, index, prompts]);
 
   return (
     <div className="font-mono text-sm text-quantum/90 md:text-base">

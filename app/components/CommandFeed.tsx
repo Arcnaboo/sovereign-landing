@@ -1,15 +1,6 @@
 "use client";
 
-const EVENTS = [
-  { time: "14:02:41", type: "MATCH", msg: "Buyer ↔ Supplier linked — Istanbul → Hamburg" },
-  { time: "14:02:38", type: "ROUTE", msg: "Supply chain optimized — Rotterdam → Singapore" },
-  { time: "14:02:35", type: "SIGNAL", msg: "Market opportunity flagged — ASEAN logistics" },
-  { time: "14:02:31", type: "CAPITAL", msg: "Investor interest — Series B climate tech" },
-  { time: "14:02:28", type: "COMPLY", msg: "Regional compliance verified — EU export" },
-  { time: "14:02:24", type: "MATCH", msg: "Executive network — Dubai ↔ São Paulo" },
-  { time: "14:02:20", type: "ROUTE", msg: "Shipment orchestrated — Shanghai → Los Angeles" },
-  { time: "14:02:17", type: "SIGNAL", msg: "Acquisition scan — Southeast Asia manufacturing" },
-];
+import type { CommandEvent } from "@/lib/content/types";
 
 const TYPE_COLOR: Record<string, string> = {
   MATCH: "text-quantum",
@@ -19,8 +10,8 @@ const TYPE_COLOR: Record<string, string> = {
   COMPLY: "text-gold/80",
 };
 
-export function CommandFeed() {
-  const doubled = [...EVENTS, ...EVENTS];
+export function CommandFeed({ events }: { events: CommandEvent[] }) {
+  const doubled = [...events, ...events];
 
   return (
     <div className="relative h-64 overflow-hidden mask-linear-fade md:h-80">
